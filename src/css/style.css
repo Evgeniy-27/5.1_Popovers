@@ -1,4 +1,95 @@
-body {
-  background: #eee;
-  text-align: center;
+.container {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  position: relative;
+}
+
+.invisible {
+  display: none;
+}
+.btn {
+  color: #fff;
+  background-color: #dc3545;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif, "Arial";
+  line-height: 30px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #c82333;
+ 
+}
+
+.btn:focus {
+  outline: 0;
+  }
+
+.active {
+  position: absolute;
+  top: -108px;
+  left: -20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 274px;
+  transition: 1s;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -9px;
+  box-sizing: border-box;
+  color: rgb(33, 37, 41);
+  height: 8px;
+  left: 124px;
+  margin: 0 4.8px;
+  width: 16px;
+}
+
+.arrow::before {
+  content: "";
+  position: absolute;
+  border-bottom: 0 solid rgba(0, 0, 0, 0);
+  border-left: 8px solid rgba(0, 0, 0, 0);
+  border-right: 8px solid rgba(0, 0, 0, 0);
+  border-top: 8px solid rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  height: 8px;
+  width: 16px;
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  border-bottom: 0 solid rgba(0, 0, 0, 0);
+  border-left: 8px solid rgba(0, 0, 0, 0);
+  border-right: 8px solid rgba(0, 0, 0, 0);
+  border-top: 8px solid rgb(255, 255, 255);
+  bottom: 1px;
+  box-sizing: border-box;
+  height: 8px;
+  width: 16px;
+}
+
+.popover-header {
+  margin: 0;
+  color: rgb(33, 37, 41);
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+
+.popover-body {
+  color: rgb(33, 37, 41);
+  line-height: 20px;
+  padding: 8px 12px;
+  box-sizing: border-box;
 }
