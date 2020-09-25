@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/v5yyx8v3jm2idr42?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/5-1-popovers)
+
+[GitHub Pages](https://evgeniy-27.github.io/5.1_Popovers/)
+
 ### Popovers
 
 #### Легенда
