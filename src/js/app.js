@@ -6,11 +6,12 @@ import Widget from './Widget';
 const widget = new Widget();
 const container = document.querySelector('.container');
 const btn = document.querySelector('[toggle="popover"]');
+container.insertAdjacentHTML('afterbegin', widget.div);
 
 btn.addEventListener('click', (e) => {
   e.preventDefault();
-  container.insertAdjacentHTML('afterbegin', widget.div);
+
   const popover = container.querySelector('[widget="popover-top"]');
-  popover.classList.toggle('active');
   popover.classList.toggle('invisible');
+  popover.classList.toggle('active');
 });
