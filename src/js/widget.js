@@ -1,7 +1,5 @@
 /* eslint-disable linebreak-style */
-/* eslint-disable import/prefer-default-export */
-/* eslint-disable linebreak-style */
-export class Widget {
+export default class Widget {
   constructor() {
     this.div = `<div widget="popover-top" class="invisible">
   <div class="arrow"></div>

@@ -1,9 +1,10 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable import/no-unresolved */
 /* eslint-disable no-undef */
-import { Widget } from './Widget';
+import Widget from './widget';
 
 const widget = new Widget();
+
 const container = document.querySelector('.container');
 const btn = document.querySelector('[toggle="popover"]');
 container.insertAdjacentHTML('afterbegin', widget.div);
